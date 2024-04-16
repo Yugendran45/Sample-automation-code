@@ -200,7 +200,7 @@ public class Brainsight_AI {
 	}
 
 	// Signout the page
-
+        // update the code 
 	@AfterClass
 	public void logout() {
 		driver.findElement(By.xpath("/html/body/div/section/div/div/section[1]/div[1]/div[3]/div[5]/svg/rect")).click();
